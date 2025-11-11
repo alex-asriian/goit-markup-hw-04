@@ -400,6 +400,9 @@ img {
   padding: 100px 0;
   background-color: #2e2f42;
 }
+.page-footer .container {
+  align-items: baseline;
+}
 .footer-text {
   font-size: 16px;
   line-height: 150%;
