@@ -247,7 +247,7 @@ img {
 /*#region our-team Третя секція*/
 
 .team {
-  /*padding: 120px 0;*/
+  padding: 120px 0;
   margin-bottom: 112px;
   background-color: #f4f4fd;
 }
@@ -461,6 +461,5 @@ img {
 .footer-socials-icons {
   fill: #f4f4fd;
 }
-.footer-socials-icons {
-}
+
 /*#endregion footer*/
