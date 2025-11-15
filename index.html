@@ -438,7 +438,7 @@
           </p>
         </div>
         <div class="footer-socials">
-          <p class="footer-socials-title">Social media</p>
+          <p class="footer-titles">Social media</p>
           <ul class="footer-socials-list">
             <li class="footer-socials-item">
               <a href="" class="footer-socials-link">
@@ -470,9 +470,85 @@
             </li>
           </ul>
         </div>
+        <form name="e-mail-input-form" class="foot-form" autocomplete="off">
+          <label class="form-label" for="e-mail">Subscribe</label>
+          <div class="e-mail_subscr">
+            <input
+              type="email"
+              name="e-mail"
+              id="e-mail"
+              class="e-mail-imput"
+              placeholder="E-mail"
+            />
+            <button type="submit" class="subscr-btn">Subscribe</button>
+          </div>
+        </form>
       </div>
     </footer>
 
     <!--#endregion footer-->
+    <!--#region popup-->
+    <div class="backdrop">
+      <div class="popup">
+        <button class="popup-exit" type="button">X</button>
+        <p class="popup-title">Leave your contacts and we will call you back</p>
+        <form class="popup-form">
+          <div class="form-field-wrapper">
+            <label class="label-field" name="username" for="user-name"
+              >Name</label
+            >
+            <input
+              class="input-field"
+              type="text"
+              id="user-name"
+              name="user-name"
+            />
+          </div>
+          <div class="form-field-wrapper">
+            <label class="label-field" name="usertel" for="user-tel"
+              >Phone</label
+            >
+            <input
+              class="input-field"
+              type="tel"
+              id="user-tel"
+              name="user-tel"
+            />
+          </div>
+          <div class="form-field-wrapper">
+            <label class="label-field" name="useremail" for="user-em"
+              >Email</label
+            >
+            <input
+              class="input-field"
+              type="email"
+              id="user-em"
+              name="user-em"
+            />
+          </div>
+          <div class="form-field-wrapper">
+            <label class="label-field" name="usercomment" for="user-text"
+              >Comment</label
+            >
+            <textarea
+              class="user-text"
+              type="text"
+              id="user-text"
+              name="comment"
+              placeholder="Text input"
+            ></textarea>
+          </div>
+          <div class="form-field-wrapper">
+            <input type="checkbox" id="policy" name="policy" value="true" />
+            <label for="policy"
+              >I accept the terms and conditions of the
+              <a href="">Privacy Policy</a></label
+            >
+          </div>
+          <button type="submit" class="popup-btn">Send</button>
+        </form>
+      </div>
+    </div>
+    <!--#endregion popup-->
   </body>
 </html>
